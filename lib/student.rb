@@ -7,7 +7,12 @@ class Student
   def initialize(id = nil, name, grade)
     @name = name
     @grade = grade
-    
+  end
+  
+  def self.create_table
+    sql = <<-SQL
+      
+    SQL
   end
 
 end
